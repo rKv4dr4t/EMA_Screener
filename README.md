@@ -3,6 +3,7 @@ Scan every asset specifying the quote asset, detecting EMA crossing and send a b
 
 ### Install
 - Put your API keys in `config.py` and change the other configuration informations
+- Be sure to don't have any limit order opened
 - Run `bot.py`
 
 ### Disclaimer
