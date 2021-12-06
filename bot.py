@@ -141,7 +141,7 @@ def order(side, quantity, symbol,order_type=ORDER_TYPE_MARKET):
             price= price_take,                                            
             stopPrice= price_semi_stop,                                            
             stopLimitPrice= price_stop,                                            
-            stopLimitTimeInForce= 'FOK')
+            stopLimitTimeInForce= 'GTC')
         so_sl = sell_order["orderReports"][0]["price"]
         so_tk = sell_order["orderReports"][1]["price"]
         print("sell")
