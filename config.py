@@ -26,7 +26,7 @@ FEE = 0.01
 TIMING = "1m"
 
 # Black list for stable coin and others
-BLACK_LIST = ["USDCUSDT", "BUSDUSDT", "DAIUSDT", "TUSDUSDT", "USDPUSDT", "TRIBEUSDT", "RSRUSDT"]
+BLACK_LIST = ["USDCUSDT", "BUSDUSDT", "DAIUSDT", "TUSDUSDT", "USDPUSDT", "TRIBEUSDT", "RSRUSDT", "SUSDUSDT"]
 
 ####################
 
